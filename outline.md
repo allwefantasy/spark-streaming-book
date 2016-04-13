@@ -38,7 +38,13 @@
       - es-hadoop项目介绍
       - 优化es-hadoop项目
    *  持久化到Redis
-   
+
+1. 数据清理
+  
+   * RDD的cache/persist
+   * broadcast
+   * 清理的机制
+
 1. 构建单元测试
    * 编写自己的InputDStream
    * 使用ManualClock玩转周期调度
